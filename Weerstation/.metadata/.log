@@ -1,0 +1,18 @@
+!SESSION 2023-10-18 11:35:12.166 -----------------------------------------------
+eclipse.buildId=Version 1.13.2
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=nl_NL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-10-18 11:35:39.500
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-10-18 11:35:39.500
+!MESSAGE Log4j2 initialized with config file D:\NHL_Stenden_PHP_Docker_Env-0.1\app\public\GitHub\weerstation\Weerstation\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-10-18 11:35:41.839
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-10-18 11:36:24.172
+!MESSAGE Indexed 'test' (24 sources, 84 headers) in 2.77 sec: 5,003 declarations; 30,643 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0056%)
