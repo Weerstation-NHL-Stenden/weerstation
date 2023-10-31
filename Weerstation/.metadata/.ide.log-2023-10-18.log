@@ -1,0 +1,35 @@
+2023-10-19 13:06:16,068 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 463834720 Bytes (688914432)
+2023-10-19 13:06:18,466 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 492132792 Bytes (688914432)
+2023-10-19 13:06:18,607 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 515738512 Bytes (688914432)
+2023-10-19 13:06:18,928 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-10-19 13:06:18,928 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-10-19 13:06:18,928 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-10-19 13:06:18,929 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-10-19 13:06:18,929 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-10-19 13:06:18,929 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-10-19 13:06:18,930 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.2.202309101412\\db\
+2023-10-19 13:06:19,216 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\jespe\STM32CubeIDE\workspace_1.13.2\test\MXTmpFiles\license.tmp_save
+2023-10-19 13:06:19,676 [INFO] CodeEngine:279 - Generated code: C:\Users\jespe\STM32CubeIDE\workspace_1.13.2\test\MXTmpFiles\license.tmp
+2023-10-19 13:06:19,789 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\jespe\STM32CubeIDE\workspace_1.13.2\test\MXTmpFiles\gpio.tmp_save
+2023-10-19 13:06:19,914 [INFO] CodeEngine:279 - Generated code: C:\Users\jespe\STM32CubeIDE\workspace_1.13.2\test\MXTmpFiles\gpio.tmp
+2023-10-19 13:06:20,099 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\jespe\STM32CubeIDE\workspace_1.13.2\test\Core\Src\stm32f0xx_it.c_save
+2023-10-19 13:06:20,205 [INFO] CodeEngine:279 - Generated code: C:\Users\jespe\STM32CubeIDE\workspace_1.13.2\test\Core\Src\stm32f0xx_it.c
+2023-10-19 13:06:20,219 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\jespe\STM32CubeIDE\workspace_1.13.2\test\Core\Inc\stm32f0xx_it.h_save
+2023-10-19 13:06:20,292 [INFO] CodeEngine:279 - Generated code: C:\Users\jespe\STM32CubeIDE\workspace_1.13.2\test\Core\Inc\stm32f0xx_it.h
+2023-10-19 13:06:20,320 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\jespe\STM32CubeIDE\workspace_1.13.2\test\Core\Src\stm32f0xx_hal_msp.c_save
+2023-10-19 13:06:20,445 [INFO] CodeEngine:279 - Generated code: C:\Users\jespe\STM32CubeIDE\workspace_1.13.2\test\Core\Src\stm32f0xx_hal_msp.c
+2023-10-19 13:06:20,459 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\jespe\STM32CubeIDE\workspace_1.13.2\test\MXTmpFiles\system.tmp_save
+2023-10-19 13:06:20,531 [INFO] CodeEngine:279 - Generated code: C:\Users\jespe\STM32CubeIDE\workspace_1.13.2\test\MXTmpFiles\system.tmp
+2023-10-19 13:06:20,557 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\jespe\STM32CubeIDE\workspace_1.13.2\test\Core\Inc\stm32f0xx_hal_conf.h_save
+2023-10-19 13:06:20,644 [INFO] CodeEngine:335 - Generated code: C:\Users\jespe\STM32CubeIDE\workspace_1.13.2\test\Core\Inc\stm32f0xx_hal_conf.h
+2023-10-19 13:06:20,693 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\jespe\STM32CubeIDE\workspace_1.13.2\test\Core\Inc\main.h_save
+2023-10-19 13:06:20,800 [INFO] CodeEngine:279 - Generated code: C:\Users\jespe\STM32CubeIDE\workspace_1.13.2\test\Core\Inc\main.h
+2023-10-19 13:06:20,822 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\jespe\STM32CubeIDE\workspace_1.13.2\test\Core\Src\main.c_save
+2023-10-19 13:06:20,952 [INFO] CodeEngine:279 - Generated code: C:\Users\jespe\STM32CubeIDE\workspace_1.13.2\test\Core\Src\main.c
+2023-10-19 13:06:21,270 [INFO] ProjectBuilder:3064 - Time for Copy HAL[2] : 0mS.
+2023-10-19 13:06:21,276 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-10-19 13:06:21,498 [INFO] ConfigFileManager:1457 - The Die is : DIE448
+2023-10-19 13:06:21,513 [INFO] ApiDbMcu:507 - Load IP Config File for FATFS
+2023-10-19 13:06:21,524 [INFO] ApiDbMcu:507 - Load IP Config File for FREERTOS
+2023-10-19 13:06:21,543 [INFO] ApiDbMcu:507 - Load IP Config File for TOUCHSENSING
+2023-10-19 13:06:21,557 [INFO] ApiDbMcu:507 - Load IP Config File for USB_DEVICE
