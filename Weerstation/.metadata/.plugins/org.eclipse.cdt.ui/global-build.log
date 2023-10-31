@@ -1,9 +1,9 @@
-15:19:53 **** Incremental Build of configuration Debug for project test ****
+10:39:52 **** Incremental Build of configuration Debug for project test ****
 make -j12 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -IC:/Users/jespe/STM32Cube/Repository/STM32Cube_FW_F0_V1.11.4/Drivers/STM32F0xx_HAL_Driver/Inc -IC:/Users/jespe/STM32Cube/Repository/STM32Cube_FW_F0_V1.11.4/Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -IC:/Users/jespe/STM32Cube/Repository/STM32Cube_FW_F0_V1.11.4/Drivers/CMSIS/Device/ST/STM32F0xx/Include -IC:/Users/jespe/STM32Cube/Repository/STM32Cube_FW_F0_V1.11.4/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -u _printf_float -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
 ../Core/Src/main.c: In function 'main':
 ../Core/Src/main.c:113:19: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
-  113 |           sprintf(txbuf, "%.1f\r\n", Temperature);
+  113 |           sprintf(txbuf, "%.1f", Temperature);
       |                   ^~~~~
       |                   |
       |                   uint8_t * {aka unsigned char *}
@@ -17,15 +17,36 @@ Finished building target: test.elf
 arm-none-eabi-size   test.elf 
 arm-none-eabi-objdump -h -S  test.elf  > "test.list"
    text	   data	    bss	    dec	    hex	filename
-  39456	    476	   2396	  42328	   a558	test.elf
+  39456	    476	   2332	  42264	   a518	test.elf
 Finished building: default.size.stdout
  
 Finished building: test.list
  
-15:20:04 **** Incremental Build of configuration Debug for project test ****
+10:40:02 **** Incremental Build of configuration Debug for project test ****
 make -j12 all 
 arm-none-eabi-size   test.elf 
    text	   data	    bss	    dec	    hex	filename
-  39456	    476	   2396	  42328	   a558	test.elf
+  39456	    476	   2332	  42264	   a518	test.elf
+Finished building: default.size.stdout
+ 
+10:43:04 **** Incremental Build of configuration Debug for project test ****
+make -j12 all 
+arm-none-eabi-size   test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39456	    476	   2332	  42264	   a518	test.elf
+Finished building: default.size.stdout
+ 
+10:45:57 **** Incremental Build of configuration Debug for project test ****
+make -j12 all 
+arm-none-eabi-size   test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39456	    476	   2332	  42264	   a518	test.elf
+Finished building: default.size.stdout
+ 
+10:51:20 **** Incremental Build of configuration Debug for project test ****
+make -j12 all 
+arm-none-eabi-size   test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39456	    476	   2332	  42264	   a518	test.elf
 Finished building: default.size.stdout
  
