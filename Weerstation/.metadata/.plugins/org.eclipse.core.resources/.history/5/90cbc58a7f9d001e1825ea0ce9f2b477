@@ -1,0 +1,19 @@
+/*
+ * LDR.c
+ *
+ *  Created on: Dec 18, 2023
+ *      Author: jesper
+ */
+
+extern float LightIntensity;
+float Voltage, Resistance, Lux;
+uint16_t AdcValue;
+
+void MessureLightIntensity (void)
+{
+	AdcValue = HAL_ADC_GetValue(&hadc);
+	Voltage = (3.3 * AdcValue) / 4095.0;
+	Resistance = (10000 * Voltage) / (3.3 - Voltage);
+	Lux = (2500/Voltage-500) / Resistance;
+	LightIntensity = 0.0079 * Lux;
+}
