@@ -2,4 +2,6 @@ Temperature
 Humidity
 Pressure
 DataBuffer
+UVLight
 LightIntensity
+readbuffer

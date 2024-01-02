@@ -1,9 +1,9 @@
-10:05:34 **** Incremental Build of configuration Debug for project test ****
+16:01:15 **** Incremental Build of configuration Debug for project test ****
 make -j12 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -IC:/Users/jespe/STM32Cube/Repository/STM32Cube_FW_F0_V1.11.4/Drivers/STM32F0xx_HAL_Driver/Inc -IC:/Users/jespe/STM32Cube/Repository/STM32Cube_FW_F0_V1.11.4/Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -IC:/Users/jespe/STM32Cube/Repository/STM32Cube_FW_F0_V1.11.4/Drivers/CMSIS/Device/ST/STM32F0xx/Include -IC:/Users/jespe/STM32Cube/Repository/STM32Cube_FW_F0_V1.11.4/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -u _printf_float -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
 ../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:127:38: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
-  127 |           HAL_UART_Transmit(&huart2, DataBuffer, strlen(DataBuffer), 100);
+../Core/Src/main.c:135:38: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  135 |           HAL_UART_Transmit(&huart2, DataBuffer, strlen(DataBuffer), 100);
       |                                      ^~~~~~~~~~
       |                                      |
       |                                      char *
@@ -20,15 +20,15 @@ Finished building target: test.elf
 arm-none-eabi-size   test.elf 
 arm-none-eabi-objdump -h -S  test.elf  > "test.list"
    text	   data	    bss	    dec	    hex	filename
-  44356	    476	   2468	  47300	   b8c4	test.elf
+  44876	    492	   2556	  47924	   bb34	test.elf
 Finished building: default.size.stdout
  
 Finished building: test.list
  
-10:05:40 **** Incremental Build of configuration Debug for project test ****
+16:01:18 **** Incremental Build of configuration Debug for project test ****
 make -j12 all 
 arm-none-eabi-size   test.elf 
    text	   data	    bss	    dec	    hex	filename
-  44356	    476	   2468	  47300	   b8c4	test.elf
+  44876	    492	   2556	  47924	   bb34	test.elf
 Finished building: default.size.stdout
  
