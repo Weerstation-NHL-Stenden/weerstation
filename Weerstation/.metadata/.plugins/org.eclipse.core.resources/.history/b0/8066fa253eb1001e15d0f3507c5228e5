@@ -1,0 +1,20 @@
+/*
+ * Weather_meter_kit_constants.h
+ *
+ *  Created on: Jan 12, 2024
+ *      Author: jesper
+ */
+
+#ifndef INC_WEATHER_METER_KIT_CONSTANTS_H_
+#define INC_WEATHER_METER_KIT_CONSTANTS_H_
+
+#define WMK_ADC_ANGLE_0 4.640
+#define WMK_ADC_ANGLE_45 4.820
+#define WMK_ADC_ANGLE_90 4.780
+#define WMK_ADC_ANGLE_135 4.720
+#define WMK_ADC_ANGLE_180 4.560
+#define WMK_ADC_ANGLE_225 4.430
+#define WMK_ADC_ANGLE_270 4.460
+#define WMK_ADC_ANGLE_315 4.490
+
+#endif /* INC_WEATHER_METER_KIT_CONSTANTS_H_ */
