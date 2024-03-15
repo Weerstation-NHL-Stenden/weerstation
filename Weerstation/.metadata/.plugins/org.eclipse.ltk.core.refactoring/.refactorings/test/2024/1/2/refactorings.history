@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;test/Core/Inc/Weather_meter_kit_constants.h&apos; to &apos;Weather_meter_kit.h&apos;" description="Rename resource &apos;Weather_meter_kit_constants.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/Weather_meter_kit_constants.h" name="Weather_meter_kit.h" stamp="1705059097979" updateReferences="true"/>
-</session>
